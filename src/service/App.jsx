@@ -13,7 +13,7 @@ function App() {
                 <Switch>
                     <Route exact path="/courses" component={CourseComponent} />
                     <Route path="/course/new" component={CreateCourseComponent} />
-                    <Route path="/course/:id/edit" component={UpdateCourseComponent} />
+                    <Route path="/course/:id/edit" component={} />
                     <Route path="/course/:id" component={CourseDetailComponent} />
                 </Switch>
             </div>
